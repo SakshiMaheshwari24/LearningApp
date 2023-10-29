@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/letstartearning"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearningApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".flowerDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".flowerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vegetableDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vegetableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fruitDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fruitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".birdsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".birdsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".animalsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".animalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shapesDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shapesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".colourDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".colourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".alphabetDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".numberDigitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlphabetLetterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".numberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".alphabetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListenAndGuess"
+            android:exported="false" />
+        <activity
+            android:name=".LookAndChoose"
+            android:exported="false" />
+        <activity
+            android:name=".VideoLearn"
+            android:exported="false" />
+        <activity
+            android:name=".LetsLearn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
